@@ -12,6 +12,12 @@ Samples:
 
 The algorithm for the planet name generation is © 1984 [Ian Bell](http://www.iancgbell.clara.net/)  and [David Braben](https://twitter.com/DavidBraben). This Ruby source is a conversion of the [Elite C sources](http://www.iancgbell.clara.net/elite/text/index.htm).
 
+## Build & Install
+
+    gem build elite-galaxy.gemspec 
+    gem install ./elite-galaxy-1.0.0.gem 
+
+
 ## Usage
 
 ```ruby

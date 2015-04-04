@@ -4,8 +4,9 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "elite-galaxy"
-  spec.version       = '0.1.0'
+  spec.version       = '1.0.0'
   spec.authors       = ["devstopfix"]
+  spec.license       = 'MIT'
 
   spec.summary       = %q{Planet name generator of the Elite universe.}
   spec.description   = %q{Implements the Elite planet name algorithm. Can be used to generate interesting names}
